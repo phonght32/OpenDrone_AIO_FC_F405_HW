@@ -1,0 +1,49 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# FD6288Q
+#
+DEF FD6288Q U 0 40 Y Y 1 L N
+F0 "U" -400 1025 50 H V L BNN
+F1 "FD6288Q" -400 -1100 50 H V L BNN
+F2 "QFN50P400X400X90-25N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Fortior Tech" 0 0 50 H I L BNN "MF"
+F5 "\nMOS Drivers QFN-24\n" 0 0 50 H I L BNN "Description"
+F6 "Package" 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/FD6288Q/Fortior+Tech/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+F9 "IPC-7351B" 0 0 50 H I L BNN "STANDARD"
+F10 "https://www.snapeda.com/parts/FD6288Q/Fortior+Tech/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F11 "FD6288Q" 0 0 50 H I L BNN "MP"
+F12 "Not in stock" 0 0 50 H I L BNN "Availability"
+F13 "Fortior Tech" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -400 -1000 400 1000 0 0 10 f
+X LIN1 1 -600 300 200 R 40 40 0 0 I 
+X LIN2 2 -600 0 200 R 40 40 0 0 I 
+X LIN3 3 -600 -300 200 R 40 40 0 0 I 
+X VCC 4 600 900 200 L 40 40 0 0 W 
+X COM 6 600 -800 200 L 40 40 0 0 W 
+X LO3 9 600 -300 200 L 40 40 0 0 O 
+X LO2 10 600 0 200 L 40 40 0 0 O 
+X LO1 11 600 300 200 L 40 40 0 0 O 
+X VS3 12 600 -700 200 L 40 40 0 0 W 
+X HO3 13 600 -200 200 L 40 40 0 0 O 
+X VB3 14 600 600 200 L 40 40 0 0 W 
+X VS2 15 600 -600 200 L 40 40 0 0 W 
+X HO2 16 600 100 200 L 40 40 0 0 O 
+X VB2 17 600 700 200 L 40 40 0 0 W 
+X VS1 18 600 -500 200 L 40 40 0 0 W 
+X HO1 19 600 400 200 L 40 40 0 0 O 
+X VB1 20 600 800 200 L 40 40 0 0 W 
+X HIN1 22 -600 400 200 R 40 40 0 0 I 
+X HIN2 23 -600 100 200 R 40 40 0 0 I 
+X HIN3 24 -600 -200 200 R 40 40 0 0 I 
+X EXP 25 600 -900 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

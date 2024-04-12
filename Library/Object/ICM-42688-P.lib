@@ -1,0 +1,45 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# ICM-42688-P
+#
+DEF ICM-42688-P U 0 40 Y Y 1 L N
+F0 "U" -800 630 50 H V L BNN
+F1 "ICM-42688-P" -800 -800 50 H V L BNN
+F2 "PQFN50P300X250X97-14N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "TDK InvenSense" 0 0 50 H I L BNN "MF"
+F5 "0.97mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F6 "LGA-14 TDK InvenSense" 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/ICM-42688-P/TDK+InvenSense/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+F9 "IPC-7351B" 0 0 50 H I L BNN "STANDARD"
+F10 "1.2" 0 0 50 H I L BNN "PARTREV"
+F11 "https://www.snapeda.com/parts/ICM-42688-P/TDK+InvenSense/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F12 "ICM-42688-P" 0 0 50 H I L BNN "MP"
+F13 "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4791856&manufacturer=TDK InvenSense&part_name=ICM-42688-P&search_term=None" 0 0 50 H I L BNN "Purchase-URL"
+F14 "\nAccelerometer, Gyroscope, 6 Axis Sensor - Output\n" 0 0 50 H I L BNN "Description"
+F15 "In Stock" 0 0 50 H I L BNN "Availability"
+F16 "TDK InvenSense" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -800 -700 800 600 0 0 10 f
+X AP_SDO/AP_AD0 1 -1000 -300 200 R 40 40 0 0 B 
+X INT1/INT 4 1000 200 200 L 40 40 0 0 O 
+X VDDIO 5 1000 400 200 L 40 40 0 0 W 
+X GND 6 1000 -600 200 L 40 40 0 0 W 
+X VDD 8 1000 500 200 L 40 40 0 0 W 
+X INT2/FSYNC/CLKIN 9 -1000 200 200 R 40 40 0 0 B 
+X AP_CS 12 -1000 0 200 R 40 40 0 0 I 
+X AP_SCL/AP_SCLK 13 -1000 -100 200 R 40 40 0 0 I C
+X AP_SDA/AP_SDIO/AP_SDI 14 -1000 -200 200 R 40 40 0 0 B 
+X RESV_7 7 1000 -400 200 L 40 40 0 0 P 
+X RESV_2 2 1000 0 200 L 40 40 0 0 P 
+X RESV_3 3 1000 -100 200 L 40 40 0 0 P 
+X RESV_10 10 1000 -200 200 L 40 40 0 0 P 
+X RESV_11 11 1000 -300 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

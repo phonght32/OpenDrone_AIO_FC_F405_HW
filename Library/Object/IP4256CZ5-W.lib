@@ -1,0 +1,48 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# IP4256CZ5-W
+#
+DEF IP4256CZ5-W U 0 40 N N 1 L N
+F0 "U" 0 0 50 H I L BNN
+F1 "IP4256CZ5-W" 0 0 50 H I L BNN
+F2 "SOT65P210X110-5N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "NXP Semiconductors" 0 0 50 H I L BNN "MF"
+F5 "\nRC (Pi) EMI Filter 2nd Order Low Pass 2 Channel R = 100Ohms, C = 19pF (Total) SOT-665\n" 0 0 50 H I L BNN "Description"
+F6 "SOT-665 NXP Semiconductors" 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/IP4256CZ5-W/NXP+Semiconductors/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F9 "IP4256CZ5-W" 0 0 50 H I L BNN "MP"
+F10 "Not in stock" 0 0 50 H I L BNN "Availability"
+F11 "https://www.snapeda.com/parts/IP4256CZ5-W/NXP+Semiconductors/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+DRAW
+T 0 0 -160 50 0 0 0 GND Normal 0 C B
+P 2 0 0 10 -300 100 -60 100 N
+P 2 0 0 10 300 100 60 100 N
+P 2 0 0 10 -60 120 60 120 N
+P 2 0 0 10 60 120 60 100 N
+P 2 0 0 10 60 100 60 80 N
+P 2 0 0 10 60 80 -60 80 N
+P 2 0 0 10 -60 80 -60 100 N
+P 2 0 0 10 -60 100 -60 120 N
+P 2 0 0 10 -300 0 -60 0 N
+P 2 0 0 10 300 0 60 0 N
+P 2 0 0 10 -60 20 60 20 N
+P 2 0 0 10 60 20 60 0 N
+P 2 0 0 10 60 0 60 -20 N
+P 2 0 0 10 60 -20 -60 -20 N
+P 2 0 0 10 -60 -20 -60 0 N
+P 2 0 0 10 -60 0 -60 20 N
+S -300 -200 300 200 0 0 10 f
+X ~ 1 -400 100 100 R 40 40 0 0 P 
+X ~ 2 0 -300 100 U 40 40 0 0 P 
+X ~ 3 -400 0 100 R 40 40 0 0 P 
+X ~ 4 400 0 100 L 40 40 0 0 P 
+X ~ 5 400 100 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

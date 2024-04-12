@@ -1,0 +1,38 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MP1584
+#
+DEF MP1584 U 0 40 Y Y 1 L N
+F0 "U" -400 350 50 H V L BNN
+F1 "MP1584" 241 361 50 H V L BNN
+F2 "SO-08POWER" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Monolithic Power" 0 0 50 H I L BNN "MF"
+F5 "Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 3A 8-SOIC (0.154, 3.90mm Width) Exposed Pad" 0 0 50 H I L BNN "DESCRIPTION"
+F6 "SOIC-8 Monolithic Power" 0 0 50 H I L BNN "PACKAGE"
+F7 "None" 0 0 50 H I L BNN "PRICE"
+F8 "SOIC-8 Monolithic Power" 0 0 50 H I L BNN "Package"
+F9 "https://www.snapeda.com/parts/MP1584/Monolithic+Power+Systems+Inc./view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+F10 "None" 0 0 50 H I L BNN "Price"
+F11 "https://www.snapeda.com/parts/MP1584/Monolithic+Power+Systems+Inc./view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F12 "MP1584" 0 0 50 H I L BNN "MP"
+F13 "Not in stock" 0 0 50 H I L BNN "Availability"
+F14 "Not in stock" 0 0 50 H I L BNN "AVAILABILITY"
+F15 "\nBuck Switching Regulator IC Positive Adjustable 0.8V 1 Output 3A 8-SOIC (0.154, 3.90mm Width) Exposed Pad\n" 0 0 50 H I L BNN "Description"
+DRAW
+S -400 -500 600 300 0 0 10 f
+X VIN 1 -500 100 100 R 40 40 0 0 I 
+X OUT 2 -500 -100 100 R 40 40 0 0 I 
+X ON/OFF 4 100 -600 100 U 40 40 0 0 W 
+X GND2 7 700 100 100 L 40 40 0 0 O 
+X GND1 6 700 -100 100 L 40 40 0 0 I 
+X GND 5 700 -300 100 L 40 40 0 0 W 
+X FEED 3 -500 -300 100 R 40 40 0 0 I 
+X GND3 8 100 400 100 D 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
